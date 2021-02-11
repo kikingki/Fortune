@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'MapoGoldenPier';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoGoldenPierA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'MapoGoldenPier', cursive;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: ivory;
+    background-image: url('https://new-year.spartacodingclub.kr/images/pattern.png');
+    background-position: 1000px 200px;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mytitle {
+    width: 1200px;
+    margin-bottom: 50px;
+
+    color: darkred;
+    text-align: center;
+}
+
+.mytitle > h1 {
+    margin-bottom: 30px;
+    font-size: 3.5rem;
+}
+
+.rtans {
+    width: 1200px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    flex-wrap: wrap;
+}
+
+.rtans > a {
+    width: 150px;
+    height: 145px;
+
+    margin: 10px;
+    padding-top: 5px;
+
+    display: block;
+
+    border: solid 3px darkred;
+    border-radius: 150px;
+    box-shadow: 0px 0px 10px 0px darkred;
+
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.rtan1 { background-image: url('https://new-year.spartacodingclub.kr/images/yearS1.png'); }
+.rtan2 { background-image: url('https://new-year.spartacodingclub.kr/images/yearS2.png'); }
+.rtan3 { background-image: url('https://new-year.spartacodingclub.kr/images/yearS3.png'); }
+.rtan4 { background-image: url('https://new-year.spartacodingclub.kr/images/yearS4.png'); }
+.rtan5 { background-image: url('https://new-year.spartacodingclub.kr/images/yearS5.png'); }
+.rtan6 { background-image: url('https://new-year.spartacodingclub.kr/images/yearS6.png'); }
+.rtan7 { background-image: url('https://new-year.spartacodingclub.kr/images/yearS7.png'); }
+.rtan8 { background-image: url('https://new-year.spartacodingclub.kr/images/yearS8.png'); }
+.rtan9 { background-image: url('https://new-year.spartacodingclub.kr/images/yearS9.png'); }
+.rtan10 { background-image: url('https://new-year.spartacodingclub.kr/images/yearS10.png'); }
+.rtan11 { background-image: url('https://new-year.spartacodingclub.kr/images/yearS11.png'); }
+.rtan12 { background-image: url('https://new-year.spartacodingclub.kr/images/yearS12.png'); }
+
+.rtans > a:hover {
+    background-color: darkred;
+}

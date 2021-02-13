@@ -27,7 +27,7 @@ body {
 }
 
 .mytitle {
-    width: 1200px;
+    /* width: 1200px; */
     margin-bottom: 50px;
 
     color: darkred;
@@ -48,6 +48,7 @@ body {
 
     flex-wrap: wrap;
 }
+
 
 .rtans > a {
     width: 150px;
@@ -86,4 +87,24 @@ body {
 
 .rtans > a:hover {
     background-color: darkred;
+}
+
+
+@media screen and (max-width: 780px)  {
+
+    body {
+        background-position: 70px -70px;
+        background-size: 500px;
+    }
+
+    .rtans {
+        width: 100%;
+        height: 50%;
+    }
+
+    .rtans > a {
+        color: darkred;
+    }
+
+
 }

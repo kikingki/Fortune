@@ -58,6 +58,8 @@ body {
 }
 
 .msg {
+    display: none;
+
     color: darkred;
     text-align: center;
     font-size: 1.8rem;
@@ -111,7 +113,7 @@ body {
 
     .msg {
         padding: 0 20px;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     .msg > br {

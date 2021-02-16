@@ -1,6 +1,6 @@
 # 2021년 띠별 신년운세 페이지 by SpartaCodingClub
 
-### 완성 페이지
+### - 완성 페이지
 <img src="/image/index페이지.png" width="80%" height="40%" alt="index 페이지"></img><br/>
 <img src="/image/result페이지.png" width="80%" height="40%" alt="result 페이지"></img><br/>
 
@@ -29,6 +29,7 @@ const share = () => {
 };
 ```
 
+### - 모바일 반응형
 <img src="/image/모바일반응형.PNG" width="30%" height="60%" alt="모바일반응형"></img><br/>
 
 + @media를 사용해 미디어쿼리를 지정했다. width가 780px이하일 경우, 배경의 패턴을 위로 옮기고 rtan 태그들을 크기에 맞춰 2~4개로 정렬하고 글씨색을 변경했다.
@@ -52,7 +53,7 @@ const share = () => {
 }
 ```
 
-
+### - 링크 미리보기
 <img src="/image/og태그.PNG" width="40%" height="40%" alt="og 태그"></img><br/>
 
 + 링크의 미리보기 부분을 지정해 띄워주는 og태그를 사용했다. 
